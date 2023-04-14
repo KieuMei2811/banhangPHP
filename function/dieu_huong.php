@@ -20,6 +20,9 @@
         case "gio_hang":
             include("function/gio_hang/gio_hang.php");
         break;
+        case "admin_product":
+            include("function/admin_p/admin_product.php");
+        break;
         default:
             echo "Trang chủ";
     }
